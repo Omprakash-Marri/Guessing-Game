@@ -102,7 +102,7 @@ int main(){
 	while(nwin>1){
 	nwin=guess(nwin);
 	}
-	
+	//game ends
 	return 0;
 }
 
