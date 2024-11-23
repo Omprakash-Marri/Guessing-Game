@@ -13,7 +13,6 @@ int guess(int n){
 		//random number generator.
 		srand(time(0));
 		int r=(rand()%100)+1;
-		printf("\n%d",r);
 		
 		int count=0;
 		printf("\n \n===PLAYER %d===\n \n",i+1);
