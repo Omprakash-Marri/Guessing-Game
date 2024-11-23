@@ -97,12 +97,13 @@ int main(){
 	int n;
 	printf("How many are playing? : ");
 	scanf("%d",&n);
-	
+	//calling guess function
 	int nwin=guess(n);
 	while(nwin>1){
 	nwin=guess(nwin);
 	}
 	//game ends
+	
 	return 0;
 }
 
